@@ -1,0 +1,114 @@
+:root {
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --white: #fff;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
+  line-height: 1.5;
+  background: var(--white);
+  letter-spacing: 0.32px;
+}
+a {
+  text-decoration: none;
+  color: var(--navyblue);
+}
+
+/* Header */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+
+.logo-web {
+  color: var(--iris);
+}
+
+.logo-studio-header {
+  color: var(--navyblue);
+}
+.navigation {
+  font-weight: 500;
+  color: var(--navyblue);
+}
+.address {
+  color: var(--slate);
+  font-style: normal;
+}
+
+/* Hero */
+.hero {
+  background: var(--navyblue);
+}
+.hero-header {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  color: var(--white);
+  letter-spacing: 0.64px;
+  background: var(--iris);
+}
+
+/* Features */
+.header-second {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+}
+.header-feature {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.text {
+  color: var(--slate);
+}
+
+/* Team */
+.team {
+  background: var(--cloud);
+}
+
+/* Footer */
+.logo-studio {
+  color: var(--cloud);
+}
+.footer {
+  background: var(--navyblue);
+}
+.text-footer {
+  color: var(--cloud);
+}
+
+/* Second page portfolio */
+
+.button-portfolio {
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  background: var(--cloud);
+}
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio:active {
+  color: var(--white);
+  background: var(--ocean);
+}
