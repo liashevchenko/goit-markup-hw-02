@@ -49,6 +49,9 @@ body {
 .address {
   font-style: normal;
 }
+.link-address {
+  color: var(--slate);
+}
 .link-address:hover,
 .link-address:focus {
   color: var(--ocean);
