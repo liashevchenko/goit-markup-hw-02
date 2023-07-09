@@ -46,6 +46,10 @@ body {
   color: var(--navyblue);
   text-decoration: none;
 }
+.navigation:hover,
+.navigation:focus {
+  color: var(--ocean);
+}
 .address {
   font-style: normal;
 }
@@ -71,8 +75,17 @@ body {
 }
 .hero-button {
   color: var(--white);
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--ocean);
 }
 
 /* Features */
