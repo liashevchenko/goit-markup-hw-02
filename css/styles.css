@@ -135,12 +135,22 @@ body {
   color: var(--iris);
   text-align: center;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  стиль cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus,
 .button-portfolio:active {
   color: var(--white);
   background: var(--ocean);
+}
+.text-portfolio{
+   font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
