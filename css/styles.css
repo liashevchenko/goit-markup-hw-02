@@ -140,7 +140,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  стиль cursor: pointer;
+  cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus,
@@ -148,9 +148,9 @@ body {
   color: var(--white);
   background: var(--ocean);
 }
-.text-portfolio{
-   font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
