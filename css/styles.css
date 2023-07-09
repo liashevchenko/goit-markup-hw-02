@@ -85,7 +85,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* Features */
@@ -95,11 +95,15 @@ body {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navyblue);
 }
 .header-feature {
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
 .text {
@@ -109,6 +113,9 @@ body {
 /* Team */
 .team {
   background: var(--cloud);
+}
+.team-point {
+  background-color: var(--white);
 }
 
 /* Footer */
